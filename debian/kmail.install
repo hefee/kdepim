@@ -35,6 +35,7 @@ usr/share/applications/kde4/importwizard.desktop
 usr/share/applications/kde4/kmail_view.desktop
 usr/share/applications/kde4/ktnef.desktop
 usr/share/doc/kde/HTML/*/akonadi_archivemail_agent/
+usr/share/doc/kde/HTML/*/akonadi_folderarchive_agent/
 usr/share/doc/kde/HTML/*/akonadi_sendlater_agent/
 usr/share/doc/kde/HTML/*/headerthemeeditor/
 usr/share/doc/kde/HTML/*/importwizard
@@ -117,6 +118,7 @@ usr/share/kde4/apps/messageviewer/themes/example/header.html
 usr/share/kde4/apps/messageviewer/themes/example/header_row.html
 usr/share/kde4/apps/messageviewer/themes/example_fancy/header.desktop
 usr/share/kde4/apps/messageviewer/themes/example_fancy/header.html
+usr/share/kde4/apps/pimsettingexporter/backup-structure.txt
 usr/share/kde4/apps/pimsettingexporter/pimsettingexporter.rc
 usr/share/kde4/config.kcfg/customtemplates_kfg.kcfg
 usr/share/kde4/config.kcfg/kmail.kcfg

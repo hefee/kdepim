@@ -2,6 +2,8 @@ usr/bin/knotes
 usr/lib/kde4/kcm_knote.so
 usr/lib/kde4/knotes_local.so
 usr/lib/kde4/kontact_knotesplugin.so
+usr/lib/libknotesprivate.so.4
+usr/lib/libknotesprivate.so.4.*.*
 usr/share/applications/kde4/knotes.desktop
 usr/share/doc/kde/HTML/*/knotes/
 usr/share/icons/hicolor/128x128/apps/knotes.png
@@ -15,9 +17,14 @@ usr/share/icons/hicolor/32x32/apps/knotes.png
 usr/share/icons/hicolor/48x48/apps/knotes.png
 usr/share/icons/hicolor/64x64/apps/knotes.png
 usr/share/icons/hicolor/scalable/apps/knotes.svgz
-usr/share/kde4/apps/knotes/knotes_part.rc
 usr/share/kde4/apps/knotes/knotesappui.rc
+usr/share/kde4/apps/knotes/knotes_part.rc
 usr/share/kde4/apps/knotes/knotesui.rc
+usr/share/kde4/apps/knotes/print/themes/big-title/theme.desktop
+usr/share/kde4/apps/knotes/print/themes/big-title/theme.html
+usr/share/kde4/apps/knotes/print/themes/default/theme.desktop
+usr/share/kde4/apps/knotes/print/themes/default/theme.html
+usr/share/kde4/apps/knotes/print/themes/TODO
 usr/share/kde4/apps/kontact/ksettingsdialog/knotes.setdlg
 usr/share/kde4/config.kcfg/knoteconfig.kcfg
 usr/share/kde4/config.kcfg/knotesglobalconfig.kcfg

@@ -8,6 +8,7 @@ usr/lib/kde4/imports/org/kde/pim/mobileui/ActiveActionMenuItemDelegate.qml
 usr/lib/kde4/imports/org/kde/pim/mobileui/AgentInstanceList.qml
 usr/lib/kde4/imports/org/kde/pim/mobileui/AgentInstanceListContainer.qml
 usr/lib/kde4/imports/org/kde/pim/mobileui/AgentInstanceListDelegate.qml
+usr/lib/kde4/imports/org/kde/pim/mobileui/AgentInstanceStatusIndicator.qml
 usr/lib/kde4/imports/org/kde/pim/mobileui/AgentStatusIndicator.qml
 usr/lib/kde4/imports/org/kde/pim/mobileui/ApplicationGeneralActions.qml
 usr/lib/kde4/imports/org/kde/pim/mobileui/AttachmentList.qml
