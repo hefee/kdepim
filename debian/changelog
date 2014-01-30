@@ -1,3 +1,10 @@
+kdepim (4:4.12.1-0r0) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Sync siduction packages with debian.
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Wed, 29 Jan 2014 00:52:41 +0100
+
 kdepim (4:4.11.5+really4.11.2-91r0) UNRELEASED; urgency=low
 
   * New upstream release.
