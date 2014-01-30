@@ -36,6 +36,9 @@
 ./usr/lib/libgrammar.so
 ./usr/lib/libpimactivity.so
 ./usr/lib/libsendlater.so
+./usr/lib/libfolderarchive.so
+./usr/lib/libgrantleetheme.so
+./usr/lib/libgrantleethemeeditor.so
 
 ./usr/share/dbus-1/interfaces/org.kde.KNotes.xml
 ./usr/share/dbus-1/interfaces/org.kde.Korganizer.Calendar.xml
