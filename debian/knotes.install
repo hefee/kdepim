@@ -25,7 +25,7 @@ usr/share/kde4/services/knote_config_action.desktop
 usr/share/kde4/services/knote_config_display.desktop
 usr/share/kde4/services/knote_config_editor.desktop
 usr/share/kde4/services/knote_config_network.desktop
-usr/share/kde4/services/knote_config_style.desktop
+usr/share/kde4/services/knote_config_print.desktop
 usr/share/kde4/services/kontact/knotesplugin.desktop
 usr/share/kde4/services/kresources/knotes/local.desktop
 usr/share/kde4/services/kresources/knotes_manager.desktop
