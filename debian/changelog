@@ -1,66 +1,36 @@
-kdepim (4:4.11.5-1) unstable; urgency=low
+kdepim (4:4.11.5+really4.11.2-91r0) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Bump KDE SC build dependencies.
 
-  [ Pino Toscano ]
-  * kmail.install: do not hardcode the minor grantlee version.
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 07 Oct 2013 16:49:40 +0200
 
-  [ Maximiliano Curia ]
-  * Add autopkgtests.
-  * Bump Standards-Version to 3.9.5, no changes needed.
-  * New patch: disable_test_verify
-
- -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jan 2014 17:55:47 +0100
-
-kdepim (4:4.11.3-1) unstable; urgency=low
+kdepim (4:4.11.5+really4.11.1-91r0) UNRELEASED; urgency=low
 
   * New upstream release.
-  * Update build dependencies.
+  * Bump KDE SC build dependencies.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 09 Nov 2013 19:56:48 +0100
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Thu, 05 Sep 2013 21:38:39 +0200
 
-kdepim (4:4.11.2-2) experimental; urgency=low
-
-  * Update build-dependencies.
-
- -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Oct 2013 20:06:43 +0200
-
-kdepim (4:4.11.2-1) experimental; urgency=low
+kdepim (4:4.11.5+really4.11.0-91r1) UNRELEASED; urgency=low
 
   * New upstream release.
-  * Refresh patches:
-    - kmail_reply-as-html.diff: removed, applied upstream.
-    - upstream_Use-the-template-time-in-a-special-case.patch: removed, applied
-      upstream.
-    - korganizer_templates.diff: removed, applied upstream.
-  * Update build-dependencies.
-  * Add support for building mobile applications.
-  * Add new packages: libcomposereditor4, libgrammar4, libpimactivity4,
-    libsendlater4.
-  * Update install files.
-  * Remove kdepim-strigi-plugins package.
+  * Bump KDE SC build dependencies.
+  * Build depend on akonadi-server >= 1.10.1, otherwise it FTBFSes, it's
+    probably a cmake issue and therefore the build depend not actually
+    necccesary.
+  * Add libkactivities-dev to Build-Depends.
+  * Build with -DKDEPIM_BUILD_MOBILE=TRUE.
+  * Update installed files.
+  * Comment out kdepim-strigi-plugins package.
+  * Add new packages:
+    - libcomposereditorng4
+    - libgrammar4
+    - libpimactivity4
+    - kde-config-pimactivity
+  * Update knode Breaks/Replaces against libkpgp4 to << 4:4.11.5+really4.11.0.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Oct 2013 13:20:18 +0200
-
-kdepim (4:4.10.5-2) unstable; urgency=low
-
-  [ Maximiliano Curia ]
-  * New patch: spambayes.patch, thanks to Alexandre Fayolle
-    <afayolle@debian.org>. (Closes: #602798)
-  * kmail, update spambayes dependency version.
-
-  [ Pino Toscano ]
-  * Backport upstream commit fe8ab0c4b6bebe0e5806a870b0946e13bec92c7e to
-    switch off the default value of the "Reply using HTML if present" option
-    in KMail; patch kmail_reply-as-html.diff. (Closes: #717113)
-  * Update lintian overrides.
-  * Backport upstream commits 2b160d53fe9c83fc2a0e65e510d0f02cb8670552 and
-    596c0df2933c1af13944d9a0c8e70d0f3e9966b0 to make the dates in organizer
-    templates not override the user's choice; patches korganizer_templates.diff
-    and upstream_Use-the-template-time-in-a-special-case.patch.
-    (Closes: #717093)
-
- -- Maximiliano Curia <maxy@debian.org>  Tue, 06 Aug 2013 09:38:57 +0200
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 21 Aug 2013 15:22:25 +0200
 
 kdepim (4:4.10.5-1) unstable; urgency=low
 
